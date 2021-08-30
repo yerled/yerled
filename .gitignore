@@ -2,25 +2,21 @@
 
 # dependencies
 **/node_modules
-# roadhog-api-doc ignore
-/src/utils/request-temp.js
-_roadhog-api-doc
 
 # production
 /dist
-/.vscode
+/dist-*
+# /.vscode
 
 # misc
 .DS_Store
 npm-debug.log*
 yarn-error.log
 
-/coverage
 .idea
 yarn.lock
 package-lock.json
 *bak
-.vscode
 
 # visual studio code
 .history
@@ -38,3 +34,6 @@ screenshot
 .eslintcache
 
 build
+
+*.zip
+*.tar
